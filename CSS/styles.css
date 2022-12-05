@@ -527,7 +527,7 @@ body {
   margin-right: 12px;
   background-color: transparent;
   padding-left: 16px;
-  color:var(--color-white);
+  color: var(--color-white);
 }
 
 .foter-reset::placeholder {
@@ -691,7 +691,7 @@ body {
   transition: transform 300ms var(--transformation),
     border-radius 300ms var(--transformation);
   padding: 40px;
-  }
+}
 
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) rotate(-90deg);
@@ -722,65 +722,65 @@ body {
   pointer-events: none;
 }
 
-.modal-title{
+.modal-title {
   font-weight: 700;
-font-size: 20px;
-line-height: 1.15;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--color-title);
-margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-title);
+  margin-bottom: 30px;
 }
 
-.input-label{
+.input-label {
   display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--color-uptitle);
-  margin-bottom: 4px; 
+  margin-bottom: 4px;
 }
 
-.input-wrapper{
+.input-wrapper {
   position: relative;
   margin-bottom: 28px;
 }
 
-.modal-input{
+.modal-input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   background-color: transparent;
-  padding-left:42px; 
+  padding-left: 42px;
   outline: transparent;
 }
-
 
 .modal-input:focus {
   border-color: var(--color-blue);
 }
 
-.modal-input:focus + .input-icon{
+.modal-input:focus + .input-icon {
   fill: var(--color-blue);
 }
 
-.input-icon{
+.input-icon {
   position: absolute;
   left: 12px;
   transform: translateY(50%);
 }
 
-.modal-coment{
+.modal-coment {
   width: 100%;
-  height: 120px;border: 1px solid rgba(33, 33, 33, 0.2);
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
   outline: transparent;
   margin-bottom: 20px;
 }
 
-.modal-input::placeholder{
+.modal-input::placeholder {
   font-size: 12px;
   line-height: 1.17;
   etter-spacing: 0.01em;
@@ -789,15 +789,13 @@ margin-bottom: 30px;
 
 .modal-coment:focus {
   border-color: var(--color-blue);
-} 
+}
 
-
-.check-wrap{
+.check-wrap {
   margin-bottom: 30px;
 }
 
-
-.check-text{
+.check-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -808,40 +806,39 @@ margin-bottom: 30px;
   justify-content: center;
 }
 
-.check-link{
+.check-link {
   color: var(--color-blue);
   position: relative;
   padding-left: 7px;
 }
 
-.check-link::after{
-  content: '';
+.check-link::after {
+  content: "";
   width: 100%;
   height: 1px;
   border-radius: 2px;
   background-color: var(--color-blue);
   display: block;
   position: absolute;
-  bottom:3px;
+  bottom: 3px;
 }
 
-.check-text span{
+.check-text span {
   width: 16px;
   height: 15px;
   border: 2px solid var(--color-title);
   border-radius: 2px;
   margin-right: 7px;
-  fill:transparent;
+  fill: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: fill 250ms var(--transformation),
     background-color 250ms var(--transformation),
-    border-color 250ms var(--transformation)
+    border-color 250ms var(--transformation);
 }
 
-
-.modal-check:checked + .check-text span{
+.modal-check:checked + .check-text span {
   background-color: var(--color-blue);
   border: none;
   fill: var(--color-white);
@@ -851,7 +848,7 @@ margin-bottom: 30px;
   border-color: var(--color-blue);
 }
 
-.modal-btn{
+.modal-btn {
   min-width: 200px;
   height: 50px;
   background-color: var(--color-blue);
